@@ -16,13 +16,29 @@
             box-sizing: border-box;
         }
 
-        body {
+        /*body {
             font-family: 'Raleway', sans-serif;
             background: var(--cream);
             color: var(--text-dark);
             overflow-x: hidden;
             min-height: 100vh;
             position: relative;
+        }*/
+
+        body {
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        h1, .section-title {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .container {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(27, 75, 90, 0.12);
+            border: 1px solid rgba(0,0,0,0.03);
         }
 
         /* Decorative background elements */
