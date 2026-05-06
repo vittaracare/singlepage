@@ -99,6 +99,14 @@
             margin: 1rem auto;
         }
 
+       .logo-img {
+            width: 500px; /* ajuste conforme necessário */
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
         /* Main content */
         .main-content {
             position: relative;
@@ -527,13 +535,5 @@
                 opacity: 1;
                 transform: translateX(0);
             }
-        }
-
-        .logo-img {
-            width: 300px; /* ajuste conforme necessário */
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
+        } 
 
